@@ -1,0 +1,28 @@
+
+*{
+  font-family: 'Arvo', serif;
+}
+
+.main-container{
+  background-color: rgb(240, 240, 240);
+}
+
+.img-up{
+  width: 400px;
+}
+
+
+@media screen and (max-width:700px) {
+  .main-container{
+    width:auto;
+  }
+  .img-up{
+    width: 300px;
+  }
+  .cont-bar{
+    width: 80%;
+  }
+  .del-bar{
+    width: 20%;
+  }
+}
